@@ -1,0 +1,7 @@
+import urlmappingtest.DisclosureSession
+
+model {
+    DisclosureSession disclosureSession
+}
+
+json hal.render(disclosureSession)
